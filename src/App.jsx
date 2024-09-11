@@ -4,17 +4,22 @@ import { Outlet } from "react-router-dom";
 import { PageIndicator } from "./components/ui/PageIndicator";
 import Navbar from "./components/Navbar";
 import Card from "./components/ui/Card";
-import Playground from "./components/ui/Playground";
 import Footer from "./components/Footer";
 import '@fontsource-variable/plus-jakarta-sans';
+import Card2 from "./components/ui/Card2";
+import AdBanner from "./components/ui/AdBanner";
+import PrayTime from "./components/ui/PrayTime";
 
 function App() {
 
   return (
     <div>
-        {/* <Navbar /> */}
-        <Playground />
-        {/* <Card /> */}
+        <Navbar />
+        {/* <Time /> */}
+        <Card />
+        {/* <Card2 /> */}
+        {/* <AdBanner /> */}
+        <PrayTime />
         {/* <Outlet /> */}
         <PageIndicator />
         <Footer />

@@ -1,5 +1,9 @@
 import React from "react";
 
+fetch(`https://api.aladhan.com/v1/calendarByCity/2024/9?city=Surabaya&country=Indonesia&method=20`)
+.then(response => response.json())
+.then(data => console.log(data))
+
 const SearchBar = () => {
   return (
     <>

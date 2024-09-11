@@ -5,3 +5,118 @@
 body {
   font-family: 'Plus Jakarta Sans Variable', sans-serif;
 }
+
+.bottoms {
+  margin-top: 42vh;
+}
+
+.schedule-table {
+
+  & th,
+  & td {
+    padding: 0.25rem;
+  }
+
+  & th,
+  & td {
+    font-size: 6pt;
+  }
+
+  @media (min-width: 479px) {
+
+    & th,
+    & td {
+      padding: 1rem;
+    }
+  }
+
+  @media (min-width: 479px) {
+
+    & th,
+    & td {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    & th,
+    & td {
+      padding: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    & th,
+    & td {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+  }
+
+  @media print {
+
+    & th,
+    & td {
+      padding: 0px;
+    }
+  }
+
+  @media print {
+
+    & th,
+    & td {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  @media print {
+
+    & th,
+    & td {
+      padding-top: 0.2rem;
+      padding-bottom: 0.2rem;
+    }
+  }
+
+  @media print {
+
+    & th,
+    & td {
+      font-size: 0.6rem;
+    }
+  }
+
+  .hijri-date-text {
+    margin-top: -0.5rem;
+  }
+
+  .hijri-date-text {
+    display: block;
+  }
+
+  .hijri-date-text {
+    font-size: 3pt;
+  }
+
+  @media (min-width: 479px) {
+    .hijri-date-text {
+      margin-top: 0px;
+    }
+  }
+
+  @media (min-width: 479px) {
+    .hijri-date-text {
+      font-size: 6pt;
+    }
+  }
+
+  @media print {
+    .hijri-date-text {
+      display: none;
+    }
+  }
+}
